@@ -1,0 +1,126 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+
+/* Commnon style or utilities  */
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    margin-left: 195px;
+    margin-right: 195px;
+}
+
+/* header style  */
+header{
+    background-color: #2D25A0;
+}
+.top-section{
+    padding: 42px 140px 86px 150px;
+}
+.flex{
+    display:flex ;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.left-content h2{
+    color: #fff;
+    font-size: 55px;
+    font-weight: 700;
+    margin-right: 80px;
+}
+ button{
+    background-color: #E02C6D;
+    font-size: 16px;
+    padding: 10px 24px;
+    color:#fff;
+    margin-top: 25px;
+}
+.fa-long-arrow-alt-right{
+    color: #fff;
+    font-size: 16px;
+    margin-left: 8px;
+}
+.right-content img{
+    width: 556.01px;
+    height: 438px;
+}
+/*------------------
+    blogs style  
+ --------------------*/
+ .blogs{
+     margin-top: 70px;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     gap: 27px 30px;
+    justify-content: center;
+ }
+ .blog{
+     width: 330px;
+     box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.15);
+ }
+ .thumbnail img{
+     width: 300px;
+     height: 256px;
+     margin: 15px 15px 16px 15px;
+ }
+ .blog-info{
+    margin: 0px 15px 33px 15px;
+ }
+ .blog-info h3{
+     color: #18191f;
+     font-weight: 700;
+     font-size: 28px;
+ }
+ .blog-info p{
+     color: #6c6c6c;
+     font-weight: 400;
+     font-size: 16px;
+ }
+ /* highlight area style  */
+ .Highlights{
+     margin-top: 165px;
+ }
+ .highilight-info h2{
+    color: #18191f;
+    font-size: 45px;
+    font-weight: bold;
+ }
+ .highlight-info p{
+    color: #6c6c6c;
+     font-weight: 400;
+     font-size: 16px;
+ }
+ .highlight-banner img{
+     width: 560px;
+     height: 420px;
+     margin-left: 60px;
+ }
+ /* footer style area  */
+ footer{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 158px 0 63px 0;
+ }
+ .footer-image img{
+    width: 483.87px;
+    height: 110px;
+ }
+ footer .icon  a img{
+     width: 32px;
+     height: 32px;
+     border-radius: 50%;
+ }
+ .copyright{
+     margin-top: 20px;
+ }
+ .copyright span{
+     color: #000;
+     font-size: 18px;
+ }
+ 
