@@ -100,6 +100,9 @@ header{
      height: 420px;
      margin-left: 60px;
  }
+ /* newslatter style  */
+
+ 
  /* footer style area  */
  footer{
      display: flex;
@@ -122,5 +125,36 @@ header{
  .copyright span{
      color: #000;
      font-size: 18px;
+ }
+ /* --------------------------
+        Media Queries 
+    -------------------------- */
+
+    /* for mobile divice  */
+ @media only screen and (max-width:668px) {
+     header {width: 100%;}
+    .container{
+        margin: 47px 16px;
+        width: 100%;
+    }
+    .top-section{
+        
+    }
+    .left-content h2{
+        font-size: 36px;
+    }
+    .right-content img{
+        width: 329px;
+        height: 260px;
+        
+    }
+    .flex{
+        flex-direction: column;
+        padding: 16px 47px;
+    }
+    .blogs{
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
  }
  
